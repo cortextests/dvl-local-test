@@ -3,7 +3,7 @@
     %{
       name: "default",
       checks: [
-        {ExcellentMigrations.CredoCheck.MigrationsSafety, true}
+        {ExcellentMigrations.CredoCheck.MigrationsSafety, tags: []}
       ]
     }
   ]
