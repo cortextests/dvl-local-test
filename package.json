@@ -1,0 +1,25 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "A simple Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "example",
+    "package"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "body-parser": "^1.19.0",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
